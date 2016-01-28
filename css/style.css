@@ -1,0 +1,36 @@
+/*
+ * CSS for Bootstrap Wireframe Practice
+ */
+
+ .headerbox {
+   background-color: #051838;
+   color: white;
+   padding: 10px 50px;
+ }
+
+.content-area {
+  padding: 50px 100px 0;
+}
+
+
+html { display: flex;}
+body { width: 100%;}
+
+.footer {
+  background-color: #00352F;
+  color: #6A9E98;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.container-fluid {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
